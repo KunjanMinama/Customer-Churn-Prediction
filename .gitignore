@@ -1,0 +1,9 @@
+# Ignore model files
+model/*.pkl
+
+# Ignore python cache
+__pycache__/
+*.pyc
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
