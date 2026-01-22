@@ -4,8 +4,8 @@ import numpy as np
 
 app = Flask(__name__)
 
-model = joblib.load("model/model.pkl")
-scaler = joblib.load("model/scaler.pkl")
+model = joblib.load("customer_churn_model.pkl")
+scaler = joblib.load("encoders.pkl")
 
 @app.route("/")
 def home():
