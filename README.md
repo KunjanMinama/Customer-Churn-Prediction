@@ -37,8 +37,8 @@ Customer-Churn-Prediction/
 │ └── churn_data.csv
 │
 ├── model/
-│ ├── model.pkl
-│ └── scaler.pkl
+│ ├── customer_churn_model.pkl
+│ └── encoders.pkl
 │
 ├── notebook/
 │ └── churn_prediction.ipynb
@@ -78,9 +78,9 @@ notebook/churn_prediction.ipynb
 
 This will generate:
 
--model/model.pkl
+-model/customer_churn_model.pkl
 
--model/scaler.pkl 
+-model/encoders.pkl 
 
 🌐 Run the Flask API
 
